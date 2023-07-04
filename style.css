@@ -44,6 +44,7 @@ h2 {
 img {
     max-width: 200px;
     max-height: 40px;
+    margin: auto;
 }
 
 .imagelist {
@@ -52,6 +53,12 @@ img {
     justify-content: space-evenly;
 }
 
-img {
-    margin: auto;
+#gov, #aliyah {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
+
