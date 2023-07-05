@@ -7,6 +7,10 @@ div, p {
     margin-left: 5px;
 }
 
+p {
+    font-family: Roboto,Arial,sans-serif;
+}
+
 .caption {
     text-align: center;
     position: relative;
