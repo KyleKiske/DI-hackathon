@@ -1,4 +1,7 @@
-/* Style the navbar */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
 }
@@ -11,13 +14,14 @@ p {
     font-family: Roboto,Arial,sans-serif;
 }
 
-.caption {
-    text-align: center;
-    position: relative;
-    bottom: 0px;
+ figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#navbar {
+nav {
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -25,7 +29,7 @@ p {
     margin-left: 0px;
 }
 
-#navbar a {
+nav a {
     float: left;
     display: block;
     color: #f2f2f2;
